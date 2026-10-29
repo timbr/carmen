@@ -1,0 +1,20 @@
+{
+    "tools": false,
+    "snapshot": "state/carmen.bin.zst",
+    "cdroms": {
+        "carmen": {
+            "url": "disks/carmen/.iso.zst",
+            "size": 540293120,
+            "async": true,
+            "use_parts": true,
+            "fixed_chunk_size": 262144
+        }
+    },
+    "hda": {
+        "url": "disks/win98/.img.zst",
+        "size": 1073741824,
+        "async": true,
+        "use_parts": true,
+        "fixed_chunk_size": 262144
+    }
+}
